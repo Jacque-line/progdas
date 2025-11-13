@@ -30,5 +30,5 @@ window.onscroll = () => {
 }
 
 scrollTopBtn.addEventListener("click", () => {
-    window.screenTop({top: 0, behavior: "smooth"});
+    window.scrollTo({top: 0, behavior: "smooth"});
 })
